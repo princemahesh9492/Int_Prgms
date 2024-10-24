@@ -1,0 +1,71 @@
+About me
+=========
+I have 4.6 years of experience in java development/support. The technologies worked with are
+Java,JSP,Jquery,Spring,Springboot,Restfulwebservices,Oracle database.
+
+Recent Project
+==============
+
+This is an application developed for Synchrony. This application provides credits to their 
+merchants. This application maintains information of all credits details of merchants and 
+its customers. This application consists of 2 parts like Business Center and Provider Center.
+Here Business Center for business merchants and Provider Center for healthcare merchants. 
+Both have the modules like New Application, Accounts, Reports, Manage Users, My Profile and
+Merchant Registration etc… 
+
+
+Roles and Responsibilities
+===========================
+1)Requirement Analysis
+  Involving in Backlog refinement along with team and decides estimation of userstories and
+  picking them into the sprints in consideration with their dependencies and remaining aspects.
+  
+2)Software Development
+  Develop and maintain software applications as per requirement with clean, efficient and 
+  maintainable code with best pracitces.
+  
+3)Testing and Debugging
+  unit tests and integration tests to ensure code quality.
+  Debug and troubleshoot issues in existing application with timely fixes.
+
+4)VersionControl and Documentation
+  Uses version control systems like Bitbucket for source code management.
+  Brief documentaion of our work for Release.
+
+5)Collaboration
+
+  Work closely with cross-functional teams, including UX/UI designers, product managers, 
+  and quality assurance testers.
+  Participate in code reviews and provide constructive feedback to peers.
+
+6)Mentoring:
+
+  Mentor and support junior developers, providing guidance on coding practices and 
+  problem-solving.
+  
+7)Deployment and Maintenance:
+
+  Manage deployment processes and ensure successful releases.
+  Monitor application performance and address any operational issues.
+  
+
+Challenges Faced
+=================
+
+1)Facing challenges and different issues while fitting ADA Calendar in replacement of Normal
+  Calender in 40 webpages around.
+ 
+2)Getting auto cleared user input of SSN number input field but client doesn't want it.
+
+
+
+5 User Stories
+==============
+
+1)ADA(Americans Disability Act) work/ Providing Accessibility features for webpage components
+  like radiobuttons,checkboxes,etc..
+2)Involved in XSS implementaions along with team member for request data of microservice.
+3)Replacing Noramal Calender with ADA Calendar in 40 webpages around with different issues.
+4)Getting auto cleared user input of SSN number input field but client doesn't want it.
+5)Vulnerabilities on JSP pages.
+
