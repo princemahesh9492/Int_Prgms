@@ -1,0 +1,80 @@
+
+
+
+
+
+
+import java.io.*;
+import java.util.*;
+
+
+class Solution {
+  public static void main(String[] args) {
+
+
+int nums1[] = {2, 3, 5, 8};
+
+
+int nums2[] = {10, 12, 14, 16, 18, 20};
+
+
+int a = middennumber(nums1,nums2);
+
+System.out.print(a);
+
+}
+
+static int middennumber(int nums1[],int nums2[]){
+
+
+int num3[] = new int[nums1.length+nums2.length];
+
+
+int index = 0;
+
+
+for(int i = 0;i<nums1.length;i++){
+
+num3[index] = nums1[i];
+index++;
+}
+
+ while(index<num3.length){
+
+
+for(int j =0;j<nums2.length;j++){
+
+  num3[index] = nums2[j];
+
+  index++;
+}
+
+ }
+
+Arrays.sort(num3);
+
+int fullmidden = 0;
+
+
+if(num3.length%2!=0){
+
+  int midde = num3.length/2;
+
+ fullmidden = num3[midde];
+
+
+}else{
+
+int midden = num3.length/2;
+
+
+int midddleofnumber = num3[midden];
+
+ fullmidden = (midddleofnumber+num3.length)/2;
+
+}
+
+return fullmidden;
+}
+
+}
