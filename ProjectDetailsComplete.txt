@@ -1,0 +1,578 @@
+About me
+=========
+I have 4.6 years of experience in java development.
+
+
+Project Details
+================
+
+Previous Company : BirlaSoft (worked 2+ years)
+
+Client           : Synchrony Bank
+
+Project          : BusinessCenter
+
+
+
+
+Recent Project
+==============
+
+BusinessCenter is an application developed for Synchrony Bank which provides credits to their 
+merchants. This application maintains information of all credits details of merchants. 
+This application consists of 2 systems like Business Center and Provider Center.
+Here Business Center for business merchants and Provider Center for healthcare merchants. 
+Both have the modules like New Application, Accounts, Reports, Manage Users, My Profile.
+ 
+
+The following credits are offered by this application.
+
+1. Revolving Credit
+This type of credit allows borrowers to access a credit limit and make repeated withdrawals as long as they do not exceed the limit. 
+The borrower can carry a balance from month to month and make minimum payments or pay off the balance in full.
+Examples:
+Credit Cards: The most common form of revolving credit. You can make purchases and pay off the balance over time, with interest charged on any balance carried beyond 
+the due date.
+
+
+
+
+2. Installment Credit
+This type of credit involves borrowing a fixed amount of money and repaying it in equal installments over a set period of time, typically with interest.
+Examples:
+Mortgages: Loans used to purchase real estate, repaid in regular installments over many years.
+Auto Loans: Loans used to purchase a vehicle, repaid in fixed monthly installments.
+Personal Loans: Unsecured loans often used for consolidating debt or financing large purchases, repaid in fixed installments.
+
+
+3.Overdraft Credit
+Overdraft credit is a type of credit extension provided by banks that allows a customer to continue making withdrawals or purchases even when their account balance is 
+insufficient to cover the transaction. Essentially, it allows you to "overdraw" your checking account, up to a certain limit, without being immediately rejected.
+
+Key Features of Overdraft Credit:
+=================================
+Limit of Credit: Banks usually set a maximum overdraft limit, which is the maximum amount you can overdraw your account. This limit can vary depending on your
+relationship with the bank, account type, and creditworthiness.
+
+Interest & Fees: Overdraft protection is often subject to fees and interest. The fees can be substantial, especially if you don’t pay back the overdraft quickly. 
+Fees may include:
+
+Overdraft fee: A flat fee charged every time your account is overdrawn, often between $30-$40 per transaction.
+Interest charges: If the overdraft is not paid back quickly, interest charges may apply, sometimes at high rates.
+Repayment Terms: Typically, you are required to repay the overdraft within a short period, often within 30 days, to avoid high fees or further penalties.
+
+Types of Overdraft Protection:
+==============================
+Standard Overdraft Protection: This automatically covers checks, withdrawals, or debit card transactions when your balance is insufficient, up to the pre-arranged limit.
+Link to Another Account: Some banks allow you to link your checking account to a savings account or a credit line to cover overdrafts. This can help avoid fees, but may 
+involve transfer fees.
+Overdraft Line of Credit: Some banks offer a specific line of credit that covers overdrafts. This is different from standard overdraft protection because it is a 
+credit product with terms for repayment and interest rates.
+
+How Overdraft Works:
+====================
+Let’s say you have $50 in your checking account, but you make a purchase for $75. With overdraft protection, the bank may approve the purchase and allow the transaction 
+to go through, resulting in a $25 overdraft. You would then owe the bank $75 (the original purchase amount) plus any associated overdraft fees or interest.
+
+Pros and Cons of Overdraft Credit
+=================================
+Pros:
+=====
+Convenience: Overdraft credit can prevent you from having transactions declined, especially in emergencies when you need access to funds.
+Flexibility: It provides short-term access to funds and can be used to avoid bounced checks or rejected debit card purchases.
+Avoids Rejection: Helps maintain a good reputation with merchants and prevents the embarrassment of a declined transaction.
+
+Cons:
+=====
+High Fees: Overdraft fees can accumulate quickly, leading to expensive charges if the overdraft is not repaid soon after it occurs.
+Interest Rates: If the overdraft is covered by a line of credit or a linked credit card, high interest rates may apply.
+Risk of Debt: If overdrafts are not managed carefully, it can lead to a cycle of debt with accumulating fees and interest charges.
+Overdraft Alternatives:
+Linked Accounts: Linking your checking account to a savings account or credit card to cover overdrafts can be a more cost-effective alternative.
+Alerts: Setting up account balance alerts can help you stay on top of your balance and avoid overdrawing.
+Cash Reserve: Keeping a buffer or minimum balance in your checking account can help avoid the need for overdraft credit.
+In short, while overdraft credit can be useful in preventing declined transactions, it’s important to manage it carefully to avoid excessive fees and interest charges.
+Always be aware of the terms your bank sets for overdraft protection.
+
+
+4. Secured Credit
+=================
+Secured credit involves a loan or credit that is backed by collateral, which the lender can claim if the borrower defaults on the loan.
+Examples:
+Secured Credit Cards: Often used by individuals with limited or poor credit history. The credit limit is usually equal to a cash deposit made by the borrower.
+Home Loans/Auto Loans: Mortgages and auto loans are examples of secured credit where the property or vehicle serves as collateral.
+
+
+5. Unsecured Credit
+===================
+Unsecured credit is not backed by collateral. Lenders offer unsecured credit based on the borrower's creditworthiness, such as their credit score and income.
+Examples:
+Credit Cards: Most credit cards are unsecured, with the borrower having no collateral at stake (other than their credit reputation).
+Personal Loans: These are loans granted without any asset backing and depend on the borrower’s financial situation and credit history.
+
+
+6. Commercial Credit
+====================
+Definition: Credit extended to businesses rather than individuals. Businesses can use this credit to finance operations, purchase inventory, or expand.
+Examples:
+Business Credit Cards: Credit cards issued to businesses for managing cash flow.
+Business Loans: Loans provided to companies for specific purposes like capital investment or expansion.
+
+
+
+Technologies which used in our Project:
+=======================================
+
+Backeend Technologies:
+Java, JSP, Jquery, Spring, Springboot, Restfulwebservices,microservices,Oracle database.
+
+  Java Frameworks:
+  ===============
+   Spring Framework: A comprehensive framework for building enterprise-level applications. It includes various sub-projects like:
+   Spring Boot: Simplifies Spring application setup and development.
+   Spring MVC: A module used for building web applications following the Model-View-Controller design pattern.
+   Spring Security: Provides authentication and authorization features for Java applications.
+   Spring Data: Simplifies database interaction.
+
+   Database Technologies:
+  ======================
+   Oracle Database: A widely used relational database with robust support for Java integration.
+  
+  Web Technologies:
+  ====================
+  JSP (JavaServer Pages): A technology used to create dynamically generated web pages using Java.
+  Jquery : jQuery is a fast, lightweight, and feature-rich JavaScript library. It simplifies things like HTML document traversal and manipulation, event handling, and
+           animation.
+ 
+  APIs and Web Services
+  =====================
+  RESTful APIs: Java technologies for building REST APIs (With Spring MVC).
+
+  Version Control:
+  ===============
+  Git, GitHub, Bitbucket
+
+
+
+Acceptance Criteria For User Registration & Loan/Credit Application
+===================================================================
+1)For User Registration:
+==========================
+
+User registration form should be accessible via the "Register" button on the homepage.
+
+1)A user is on the registration page. When: The user enters their details (e.g., name, email, password) and clicks "Submit." Then: The system should validate the fields and show an
+ error message if any required field is empty or invalid (e.g., invalid email format, weak password).
+
+2)The user has entered valid information. When: The user clicks "Submit." Then: The system should create a new user account, send a confirmation email, and redirect 
+  the user to the "Welcome" page.
+
+3)A user enters an already registered email address. When: The user tries to submit the registration form. Then: The system should show an error message indicating that
+  the email is already in use.
+
+4)The registration is successful. When: The user receives a confirmation email. Then: The email should contain a verification link and be sent within 5 minutes of 
+  registration.
+
+5)The user has successfully verified their email. When: The user logs in with their credentials. Then: The system should authenticate the user and allow access to the
+  dashboard.
+
+
+Acceptance Criteria:
+====================
+
+2. Loan Application Form Validation
+===================================
+Given: The user is logged into their account and navigates to the loan application page.
+When: The user fills out the credit/loan application form and submits it.
+Then:
+
+The system should validate that all required fields (e.g., loan amount, income, credit score, loan tenure) are filled out.
+The system should display an error message for any incomplete or invalid fields (e.g., "Invalid loan amount", "Please enter a valid income").
+
+
+2. Credit Eligibility Check
+============================
+Given: The user has submitted a complete and valid application form.
+When: The system processes the loan application.
+Then:
+
+The system should perform an eligibility check based on the user's credit score, income, loan amount, and tenure.
+If the user does not meet the minimum eligibility criteria (e.g., credit score below a threshold, income not sufficient to cover the loan), the system should reject
+ the application and provide a clear reason (e.g., "Your credit score is too low for this loan").
+If the user meets the eligibility criteria, proceed to the next step.
+
+
+3. Interest Rate Calculation
+=============================
+Given: The user is eligible for the loan.
+When: The system processes the loan details.
+Then:
+
+The system should calculate the interest rate based on the user's credit score, loan amount, and tenure.
+The interest rate should be dynamically adjusted based on the user’s credit score (e.g., lower rates for higher scores).
+The system should display the calculated interest rate to the user before finalizing the application.
+
+
+4. Loan Decision Notification
+=============================
+Given: The eligibility check and interest rate calculation have been successfully processed.
+When: The system makes a decision regarding the loan approval.
+Then:
+
+If the loan is approved, the system should display a message such as "Your loan has been approved. You will receive the funds within X business days."
+If the loan is rejected, the system should display a message like "Your loan application has been rejected due to [reason] (e.g., insufficient credit score, income, etc.)".
+The system should send an email to the user with the loan decision (either approval or rejection) and next steps.
+
+
+5. Loan Approval and Fund Disbursement
+======================================
+Given: The loan is approved.
+When: The system processes the loan approval and fund disbursement.
+Then:
+
+The system should record the loan details in the user's account (e.g., loan amount, tenure, interest rate, and repayment schedule).
+The system should send a notification (email/SMS) confirming the loan disbursement and repayment schedule.
+The system should initiate the fund transfer to the user’s linked bank account (if applicable).
+
+
+6. Repayment Schedule Generation
+================================
+Given: The loan is approved and funds have been disbursed.
+When: The system generates the repayment schedule.
+Then:
+
+The system should generate a repayment schedule based on the loan amount, interest rate, and tenure (e.g., monthly installments).
+The repayment schedule should be accessible to the user from their dashboard or loan details page.
+The system should notify the user about upcoming payments at least 2 days in advance via email or SMS.
+
+
+7. Security and Privacy
+=======================
+Given: The loan application contains sensitive information (e.g., personal details, financial data).
+When: The user submits their application or views their loan status.
+Then:
+
+The system should ensure all sensitive data (e.g., credit score, income, loan details) is encrypted during transmission using SSL/TLS protocols..
+The user should have the option to view, update, or delete their personal details.
+
+8. Error Handling and Validation
+================================
+Given: The user has provided incorrect or incomplete information.
+When: The system attempts to process the loan application.
+Then:
+
+If the user enters invalid information (e.g., a non-numeric value for income or loan amount), the system should display an error message and prevent submission.
+If the system encounters an unexpected error (e.g., server failure, database error), it should provide a user-friendly error message and log the error for 
+troubleshooting.
+
+9. Loan Tracking and Status
+===========================
+Given: The user has applied for a loan.
+When: The user checks the status of their loan application.
+Then:
+
+The system should allow the user to track the status of their loan application (e.g., "In Review", "Approved", "Rejected").
+The status should be updated in real-time based on the application process.
+The user should be able to view the loan details (amount, tenure, interest rate) and repayment schedule once approved.
+
+
+
+
+
+Roles and Responsibilities
+===========================
+1)Requirement Analysis
+  Involving in Backlog refinement along with team and decides estimation of userstories and
+  picking them into the sprints in consideration with their dependencies and remaining aspects.
+  
+2)Software Development
+  Develop and maintain software applications as per requirement with clean, efficient and 
+  maintainable code with best pracitces.
+  
+3)Testing and Debugging
+  unit tests and integration tests to ensure code quality.
+  Debug and troubleshoot issues in existing application with timely fixes.
+
+4)VersionControl and Documentation
+  Uses version control systems like Bitbucket for source code management.
+  Brief documentaion of our work for Release.
+
+5)Collaboration
+
+  Work closely with cross-functional teams, including UX/UI designers, product managers, 
+  and quality assurance testers.
+  Participate in code reviews and provide constructive feedback to peers.
+
+6)Mentoring:
+
+  Mentor and support junior developers, providing guidance on coding practices and 
+  problem-solving.
+ 
+7)Deployment and Maintenance:
+
+  Manage deployment processes and ensure successful releases.
+  Monitor application performance and address any operational issues.
+  
+
+
+Challenges Faced
+=================
+
+1)Facing challenges and different issues while fitting ADA Calendar in replacement of Normal
+  Calender in 40 webpages around.
+ 
+2)Getting auto cleared user input of SSN number input field but client doesn't want it.
+
+
+
+
+5 User Stories
+============================
+
+1)Implemented XSS(Cross Site Scripting) for one of the microservice to stop malcious input along with request.(Input Validation & Sanitization(Cleaning user input))
+
+   USECASES:
+   =========
+    
+    USECASE1: Validating User Input
+    ===============================
+    The microservice receives user input via HTTP requests (e.g., form fields, query parameters, request bodies). 
+    These inputs must be validated to ensure that they do not contain malicious scripts or unsafe content.
+
+    Actors: User, Microservice
+    Preconditions: The user submits data through an API request.
+    Steps:
+    The microservice receives a request containing user input (e.g., query parameters, form data, headers, etc.).
+    The system checks if any user input contains potentially harmful content (e.g., <script>, onclick, onerror, etc.).
+    If harmful content is detected, the system rejects the input and returns an error message.
+    Postconditions: The input is either accepted if safe or rejected if harmful (malicious content is flagged).
+    Exceptions: If validation fails, the system should log the attempt and notify the user with an appropriate message.
+
+   USECASE2: Sanitizing User Input
+   ===============================
+   The microservice sanitizes input that is potentially dangerous, removing any HTML, JavaScript, or other harmful elements from user-provided data before it's 
+   processed or returned in the response.
+
+   Actors: User, Microservice
+   Preconditions: The user has submitted input through an API.
+   Steps:
+   The microservice checks for HTML and JavaScript tags or event handlers (e.g., onload, onclick) in the input data.
+   The system sanitizes the input by removing or encoding these dangerous elements.
+   The sanitized input is passed through to the backend, processed, and stored.
+   Postconditions: The data is sanitized and stored without containing any malicious scripts.
+   Exceptions: If the input cannot be sanitized or is completely invalid, the system rejects the request and returns an appropriate error response.
+
+   USECASE3: Response Output Encoding
+   ==================================
+   The microservice ensures that when returning data to the client, any user-provided content (e.g., displayed messages, user comments) is properly encoded to prevent 
+   XSS vulnerabilities.
+
+   Actors: User, Microservice
+   Preconditions: The user has submitted some input, and the system is preparing to send data back to the client (e.g., after processing the input).
+   Steps:
+   The microservice checks the data that will be returned in the response (e.g., HTML rendering).
+   The system encodes any potentially dangerous characters in the user input (e.g., < becomes &lt;, > becomes &gt;, etc.) before sending it to the client.
+   The user sees sanitized output that is safe to render in the browser.
+   Postconditions: The output is safely encoded, ensuring that no harmful scripts are executed on the client-side.
+   Exceptions: If any data fails to be encoded, it should be flagged for review in logs.
+   
+
+   Acceptance Criteria:
+   ====================
+   AC1: User Input Validation
+   ==========================
+   Given: A user submits input (e.g., through a form or API request),
+   When: The input is received by the microservice,
+   Then: The input should be validated to ensure it does not contain any JavaScript or HTML tags (such as <script>, </script>, onclick, onerror, etc.). 
+        If it does contain malicious content, it should be rejected with an appropriate error message (e.g., "Invalid input detected").
+
+   AC2: User Input Sanitization
+   ============================
+   Given: A user submits input containing potential XSS elements (e.g., HTML tags, JavaScript event handlers),
+   When: The input is processed by the microservice,
+   Then: The system should sanitize the input by either:
+
+   Removing any harmful HTML or JavaScript elements (e.g., <script>, onerror, onclick, etc.), or
+   Encoding the input (e.g., converting < to &lt;, > to &gt;).
+   The sanitized data should be safely stored or passed to other parts of the application.
+
+   AC3: Output Encoding in Responses
+   =================================
+   Given: A user submits input that will be returned as part of the response (e.g., a comment or message displayed on a webpage),
+   When: The microservice sends a response back to the user,
+   Then: Any user input included in the response should be properly encoded to prevent the execution of any injected JavaScript (e.g., &lt; for <, &gt; for >). This prevents any HTML or JavaScript from being executed on the user's browser.
+
+   AC4: Handling Malicious Inputs
+   ===============================
+   Given: A user submits an invalid or malicious input,
+   When: The input is processed,
+   Then: The microservice should log the malicious attempt and return a descriptive error message indicating the input is invalid (e.g., "Malicious content detected").
+
+   AC5: Security of Input Handling
+   ===============================
+   Given: The microservice is receiving requests with potential user input,
+   When: The microservice processes the requests,
+   Then: The system should ensure that all input is handled using a secure input validation and sanitization library or framework (e.g., OWASP Java HTML Sanitizer, Apache Commons Validator, etc.) to prevent potential vulnerabilities.
+
+   AC6: Unit Tests for XSS Protection
+   ==================================
+   Given: The XSS protection features are implemented,
+   When: The code is tested,
+   Then: Unit tests should be created to verify that:
+
+   Inputs containing potentially harmful content (e.g., <script>, onload, onclick) are correctly rejected or sanitized.
+   Any returned data is properly encoded for HTML output.
+   The system prevents common XSS attack vectors (such as reflected XSS, stored XSS, etc.).
+
+   AC7: Error Handling and Logging
+   ===============================
+   Given: A malicious or invalid input is detected,
+   When: The system rejects or sanitizes the input,
+   Then: The system should log the incident with sufficient information for debugging (e.g., input data, user IP, timestamp) while ensuring that no sensitive user data is exposed in the logs.
+
+2)Writing restful services to request with third party endpoints.
+  
+  USECASE 1:   Fetching Data from a Third-Party API
+  =================================================
+ 
+  Description: The service will make a request to a third-party API to retrieve data (e.g., weather data, stock prices, user profiles) and return it to the client.
+
+  Actors: Microservice, Third-Party API, Client (End-User or Another Service)
+
+  Preconditions:
+
+  The third-party API endpoint is accessible and functional.
+  The system has valid credentials (e.g., API key, JWT token) to authenticate with the third-party API.
+
+  Steps:
+
+  The client sends a request to the microservice (e.g., /getMerchants).
+  The microservice constructs the API request with the necessary parameters (e.g., merchantnumber).
+  The microservice sends an HTTP request (typically GET) to the third-party endpoint.
+  The third-party API processes the request and responds with the requested data (e.g., merchant information in JSON format).
+  The microservice processes the response, extracts the relevant data, and returns it to the client.
+
+  Postconditions:
+
+  The data requested from the third-party service is returned to the client in a structured and usable format (e.g., JSON).
+
+  Exceptions:
+
+  If the third-party API is unavailable or responds with an error (e.g., 404 Not Found, 500 Internal Server Error), the microservice should handle it gracefully by 
+  returning an appropriate error message to the client.
+
+  
+  USECASE3: Handling Authentication and Authorization with Third-Party APIs
+  ==========================================================================
+  Description: The service must authenticate users with third-party services (e.g, JWT  for social login) and use tokens to authorize subsequent requests.
+
+  Actors: Microservice, Third-Party API (e.g.,ChainingService), Client (End-User)
+
+  Preconditions:
+
+  The microservice has proper integration with an JWT provider or other authentication mechanism.
+  The user has granted the necessary permissions to access their data.
+  Steps:
+
+  The client initiates the authentication process by redirecting to the third-party authentication endpoint (e.g., Google login).
+  The user logs in and grants the required permissions (e.g., access to their profile or calendar).
+  The third-party service redirects back to the microservice with an authorization code or access token.
+  The microservice exchanges the authorization code for an access token (for JWT) or uses the access token directly to request data from the third-party API.
+  The microservice includes the access token in subsequent requests to the third-party API to authenticate the user and fetch protected resources 
+    (e.g., merchant details).
+  Postconditions:
+
+  The client is authenticated and can interact with the third-party service on behalf of the user.
+
+Exceptions:
+
+If the authentication fails (e.g., invalid credentials, access denied), the microservice should return an error message and handle it appropriately.
+
+USECASE4: Handling API Rate Limiting from Third-Party Services
+==============================================================
+  Description: The service must handle rate-limiting constraints imposed by the third-party API to prevent exceeding the API's usage limits.
+
+  Actors: Microservice, Third-Party API
+
+  Preconditions:
+
+  The third-party API has rate limits in place (e.g., 1000 requests per hour).
+  The microservice must be able to manage these limits to avoid downtime or service disruptions.
+  Steps:
+
+  The microservice tracks the number of requests made to the third-party API.
+  If a request is made and the microservice detects that it has exceeded the rate limit, it should either:
+  Wait for the appropriate amount of time before retrying (e.g., using exponential backoff), or
+  Return a "Rate Limit Exceeded" response to the client, with an appropriate message to inform the user.
+  The microservice ensures that requests are made in a manner that does not exceed the rate limit by using techniques such as caching, request batching, or request queues.
+  Postconditions:
+
+  The microservice ensures that the third-party API’s rate limits are not exceeded, preventing service disruptions.
+  Exceptions:
+
+  If the rate limit is exceeded, the microservice should notify the client and attempt to retry after the limit reset period.
+
+USECASE5: Retrieving Data from Multiple Third-Party APIs
+========================================================
+  Description: The service needs to fetch and aggregate data from multiple third-party APIs (e.g., pulling weather data from one API and stock market data from another) and combine them into a single response.
+
+  Actors: Microservice, Multiple Third-Party APIs, Client
+
+  Preconditions:
+
+  The microservice has valid credentials for accessing each third-party API.
+  The microservice has the ability to make concurrent requests to multiple third-party services.
+  Steps:
+
+  The client makes a request to the microservice (e.g., /getWeatherAndStocks).
+  The microservice sends parallel requests to the relevant third-party APIs (e.g., one API for weather, another for stock prices).
+  Each API responds with the requested data.
+  The microservice processes the responses, aggregates the data, and formats it for the client.
+  The microservice sends the combined response (e.g., weather data along with stock prices) back to the client.
+  Postconditions:
+
+  The client receives a response containing data aggregated from multiple third-party services.
+  Exceptions:
+
+  If one of the third-party APIs is unavailable or returns an error, the microservice should return a partial response with the available data and log the failure for further investigation.
+UC6: Retrying Failed Third-Party API Requests
+=============================================
+  Description: The microservice should handle temporary failures when interacting with third-party APIs by retrying requests (e.g., network timeouts, temporary unavailability).
+
+  Actors: Microservice, Third-Party API
+
+  Preconditions:
+
+  The third-party API may experience intermittent issues (e.g., service downtime, rate limits reached).
+  The microservice is configured with retry logic.
+  Steps:
+
+  The microservice makes a request to a third-party API.
+  If the request fails (e.g., due to network failure or timeout), the system should retry the request according to a preconfigured retry strategy (e.g., retry 3 times with exponential backoff).
+  After the retries are exhausted, if the request still fails, the system should return an error message indicating the failure to the client.
+  Postconditions:
+
+  The microservice either successfully retrieves the data after retries or informs the client about the failure.
+  Exceptions:
+
+  If the retries are exhausted and the request still fails, an error message is returned to the client (e.g., "Service temporarily unavailable").
+
+UC7: Caching Data from Third-Party APIs
+=======================================
+
+  Description: The microservice may cache responses from the third-party API to optimize performance, reduce redundant requests, and minimize rate-limiting issues.
+
+  Actors: Microservice, Third-Party API, Cache (e.g., Redis)
+  Preconditions:
+  The third-party API provides data that is relatively static or doesn't change frequently (e
+
+
+
+
+
+3)Writing persistance logic to communicate with database.
+4)Replacing Noramal Calender with ADA Calendar in 40 webpages around with different issues.
+5)Upgrading Spring boot from 1.7 to 2.7.1 and placing service to cloud.(Pivotal Cloud Foundary) for one of microservice.
+6)Getting auto cleared user input of SSN number input field but client doesn't want it.
+
+
