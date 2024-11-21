@@ -1,0 +1,132 @@
+package basic;
+
+import java.util.Stack;
+
+public class RainWater {
+
+    // Calculate the total amount of water trapped among the buildings
+    public static int trap(int[] height) {
+
+        //Var to store total amount of water trapped among the buildings
+        int totalWater = 0;
+
+        Stack<Integer> stack = new Stack<>();
+
+        // Iterate through the height array
+        for (int i = 0; i < height.length; i++) {
+
+            // While stack is not empty and the current height is greater than the height of the index at the top of the stack
+            while (!stack.isEmpty() && height[i] > height[stack.peek()]) {
+
+                int top = stack.pop(); // pop the top element
+
+                if (stack.isEmpty()) {
+                    break; // no left element, stop calculating water
+                }
+
+                int left = stack.peek(); // get the left element index
+                int basinHeight = Math.min(height[i], height[left]) - height[top]; // the basin height is the difference between current and left element
+                int width = i - left - 1; // the width is the distance between the current index and the left index
+
+                // Calculate the trapped water at the top element and add it to totalWater
+                totalWater += basinHeight * width;
+            }
+
+            // Push the current index onto the stack
+            stack.push(i);
+        }
+
+        return totalWater;
+    }
+
+    public static void main(String[] args) {
+
+
+        int[] height = {0,1,0,2,1,0,1,3,2,1,2,1};
+
+        // Output of the total trapped water calculated
+        int totalWater = trap(height);
+
+        System.out.println("The Total trapped water among the buildings: " + totalWater);
+    }
+}
+
+
+====================================================================================================================================================================
+package basic;
+
+import java.util.Stack;
+import java.util.HashMap;
+import java.util.Map;
+
+public class ValidParanthesis {
+
+    // Check if the parentheses are valid or not in given input
+    public static boolean isValid(String s) {
+
+
+        // Stack to maintain opening parentheses
+        Stack<Character> stack = new Stack<>();
+
+
+        // Map to store matching pairs of parentheses
+        Map<Character, Character> bracesMap = new HashMap<>();
+        bracesMap.put(')', '(');
+        bracesMap.put('}', '{');
+        bracesMap.put(']', '[');
+
+
+        // Iterate the string
+        for (int i = 0; i < s.length(); i++) {
+
+            //Getting each character
+            char c = s.charAt(i);
+
+            // If the character is a closing bracket
+            if (bracesMap.containsKey(c)) {
+
+                // If the stack is empty, There is an unmatched closing bracket
+                if (stack.isEmpty()) {
+                    return false;
+                }
+
+
+                // Pop the stack and check if it matches the corresponding opening bracket
+                char top = stack.pop();
+                if (top != bracesMap.get(c)) {
+                    return false;  // Mismatched bracket types
+                }
+            }
+
+
+            // If it's an opening bracket, push it onto the stack
+            else if (bracesMap.containsValue(c)) {
+                stack.push(c);
+            }
+
+        }
+
+        // After processing all characters, the stack should be empty
+        // If it's not empty, There are extra opening brackets
+        return stack.isEmpty();
+    }
+
+    public static void main(String[] args) {
+
+        // Edge cases
+        String s1 = "(a + (b - c) + z) - z)";    // Expected: false (extra closing bracket)
+        String s2 = "(a + (b - c) + z - z)";     // Expected: true (valid)
+        String s3 = "((a + (b - c) + z - z)";    // Expected: false (extra opening bracket)
+        String s4 = "(a + {b - c) + z}";         // Expected: false (bracket types do not match)
+        String s5 = "y + (a + (b - c) + z - z)"; // Expected: true (valid)
+
+        System.out.println(isValid(s1)); // false
+        System.out.println(isValid(s2)); // true
+        System.out.println(isValid(s3)); // false
+        System.out.println(isValid(s4)); // false
+        System.out.println(isValid(s5)); // true
+    }
+}
+
+
+
