@@ -1,0 +1,45 @@
+1) In Employees_Projects table some rows reference employees who no longer exist in the employees table. Remove these orphaned rows
+
+delete 
+from employees_projects 
+where employee_id not in (select id 
+                          from employees);
+========================================================
+
+2) Detect Salary gaps
+hint: you want to compare the average salary between departments.
+
+
+
+SELECT 
+    MAX(Avg_Salary) - MIN(Avg_Salary) AS Salary_Gap
+FROM (
+    SELECT AVG(Salary) AS Avg_Salary
+    FROM employees
+    GROUP BY department_id
+    ) AS DepartmentAverages;
+
+(or)
+
+SELECT
+    department_id,
+    AVG(salary) AS avg_salary,
+    (SELECT MAX(avg_salary)
+     FROM (SELECT AVG(salary) AS avg_salary
+           FROM employees
+           GROUP BY department_id) AS department_avg_salaries) - AVG(salary) AS salary_gap
+FROM employees
+GROUP BY department_id
+ORDER BY salary_gap DESC;
+
+-----------------------------------------------
+
+3) Employees working on more than 1 project
+
+insert into employees_projects (project_id, employee_id) values (1,1);
+
+
+select e.id as employee_id, COUNT(ep.project_id) as project_count from employees e
+join employees_projects ep on ep.employee_id = e.id
+group by e.id
+having project_count > 1;
